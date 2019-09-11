@@ -3,9 +3,7 @@
 ## 结构目录
 .
 |-- app
-
 |   |-- main.js 页面render
-
 |   |-- style css文件
 
 |   |-- style css文件
