@@ -3,7 +3,9 @@
 ## 结构目录
 .
 |-- app
+
 |   |-- main.js 页面render
+
 |   |-- style css文件
 
 |   |-- style css文件
@@ -11,14 +13,23 @@
 |   |-- static 静态资源
 
 |-- build
+
 |   |-- utils.js 公共方法
+
 |   |-- webpack.base.config.js 基本webpack的配置（entry，output...）
+
 |   |-- webpack.dev.config.js 设置全局变量区分环境等，复用webpack.base.config.js配置操作
+
 |-- server
+
 |-- template
+
 |   |-- app.html 模板文件
+
 |-- package.json
+
 |-- README.md
+
 |-- .gitignore
 
 ## webpack的配置
