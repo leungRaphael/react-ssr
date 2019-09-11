@@ -1,15 +1,17 @@
 # react-ssr
-ssr
-
-## 学习之一 https://juejin.im/post/5c90b4115188252d9559136c
 
 ## 结构目录
 .
 |-- app
+
 |   |-- main.js 页面render
+
 |   |-- style css文件
+
 |   |-- style css文件
+
 |   |-- static 静态资源
+
 |-- build
 |   |-- utils.js 公共方法
 |   |-- webpack.base.config.js 基本webpack的配置（entry，output...）
@@ -55,4 +57,6 @@ ssr
 ## SSR中的数据请求
 - 使用redux通过props传数据做到前后端同步
 - 前端通过 Provider 将store注入到组件中
-- 前后端同步数据，即需要把store注入到window上即可，因为前端默认了值，我们加载index.js的时候前端又重新初始化了store
+- 前后端同步数据，即需要把store注入到window上即可，因为前端默认了值，我们加载index.js的时候前端又重新初始化了stor
+
+#### 学习之一 https://juejin.im/post/5c90b4115188252d9559136c
